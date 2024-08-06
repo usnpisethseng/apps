@@ -1,28 +1,21 @@
-<p align="center">
- Live Streaming ...  </p>
-<!-- Live -->			
-<!-- CSS  -->
- <link href="https://vjs.zencdn.net/7.2.3/video-js.css" rel="stylesheet">
+**Make sure to chmod files directory to 777**
 
-<p align="center">
-<!-- HTML -->
-<video id='playlists'class="video-js vjs-default-skin"  width="" height="480" controls="autoplay">
-<source type="application/vnd.apple.mpegurl" src="./Videos/vdo.m3u8">
-<source type="application/x-mpegURL" src="./Videos/vdo.m3u8">
-<source type="video/mp4" src="./Videos/vdo01.mp4">
+- chmod _files/_ to **777**
+- Comment out the die() at the top of the index.php
+- run index.php on a localhost with a basic LAMP stack
+- Name your file (no extension)
+- Use the editor for creating content
+- Submit
+- Copy the file from _files/_ to your project
 
-</video></p>
+**Submit message**
 
-<!-- JS code -->
-<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
-<script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
+![Submit message](https://github.com/topdown/PHP-MD-Editor/blob/master/screenshots/message.png?raw=true "Submit message")
 
-<script>
-var player = videojs('playlists');
-player.play();
-</script>
-<p align="center">
+You can also reload files from the _files/_ directory to edit them.
 
-</p>
+![Load Files](https://github.com/topdown/PHP-MD-Editor/blob/master/screenshots/load.png?raw=true "Load Files")
+
+**Editor**
+
+![Editor](https://github.com/topdown/PHP-MD-Editor/blob/master/screenshots/editor.png?raw=true "Editor")
